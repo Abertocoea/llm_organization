@@ -15,3 +15,4 @@ One line per page.
 - [adr/0010-repo-in-english-content-in-user-language.md](adr/0010-repo-in-english-content-in-user-language.md): The repo is in English; content follows the user's language
 - [adr/0011-only-the-installable-system-is-published.md](adr/0011-only-the-installable-system-is-published.md): Only the installable system is published
 - [adr/0012-schema-names-follow-the-vault-language.md](adr/0012-schema-names-follow-the-vault-language.md): Schema names follow the vault's language
+- [adr/0013-one-vault-per-domain-next-to-its-projects.md](adr/0013-one-vault-per-domain-next-to-its-projects.md): One vault per domain, next to its projects
