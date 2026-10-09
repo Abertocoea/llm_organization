@@ -36,7 +36,7 @@ second brain (LLM Wiki vault)          your projects
 | Folder | What it is |
 |---|---|
 | [`project-template/`](project-template/) | The files to copy into every new project |
-| [`wiki-schema/`](wiki-schema/) | The extension that lets an LLM Wiki ingest projects (work in progress) |
+| [`wiki-schema/`](wiki-schema/) | The extension that lets an LLM Wiki ingest projects |
 | [`scripts/`](scripts/) | Automation for the mechanical steps (none yet) |
 
 ## Use the template by hand
