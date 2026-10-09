@@ -2,7 +2,7 @@
 
 {{ONE_LINE_PURPOSE}}
 
-Language: write docs and talk to the user in {{LANGUAGE}}.
+Language: write docs in {{DOCS_LANGUAGE}}; talk to the user in {{USER_LANGUAGE}}.
 
 ## Start here
 

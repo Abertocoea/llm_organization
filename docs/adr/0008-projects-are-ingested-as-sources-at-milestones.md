@@ -1,0 +1,3 @@
+# Projects enter the second brain as sources, at milestones
+
+A project is ingested like any other source: a dated, immutable snapshot of its docs (no code), one project page with a status, and its general lessons merged into the wiki's concept and entity pages. Ingestion is repeatable at meaningful milestones, on the user's request (each one touches many wiki pages, and the user curates what enters the wiki; projects otherwise only read it), rather than once at the end, since many projects never formally end; and it is not done every session, so the wiki receives consolidated lessons while the day-to-day chronicle stays in the project's log. Merging lessons into concept pages is what lets a new project, or a question, reuse experience from several projects at once.

@@ -44,10 +44,12 @@ second brain (LLM Wiki vault)          your projects
 1. Copy `project-template/` into your project's root (`AGENTS.md`, `CLAUDE.md`, `docs/`).
 2. In `AGENTS.md`, replace the placeholders:
    - `{{PROJECT_NAME}}` and `{{ONE_LINE_PURPOSE}}`;
-   - `{{LANGUAGE}}`: the language your docs are written in and your agent talks to you in;
+   - `{{DOCS_LANGUAGE}}` and `{{USER_LANGUAGE}}`: the language of the docs and the one your agent talks to you in (usually the same; a public repo may want English docs);
    - `{{SECOND_BRAIN_PATH}}`: the absolute path of your LLM Wiki vault.
 
-   If `{{LANGUAGE}}` isn't English, also translate the few lines of `docs/index.md` and `docs/log.md`, so your docs don't end up in two languages.
+   If `{{DOCS_LANGUAGE}}` isn't English, also translate the few lines of `docs/index.md` and `docs/log.md`, so your docs don't end up in two languages.
+
+   In a public repo, keep personal values such as `{{SECOND_BRAIN_PATH}}` out of `AGENTS.md`: put them in a git-ignored local file and have `AGENTS.md` point to it.
 3. Fill in the commented lines under *Start here* (commands, folder map, conventions), or ask your agent to fill them after exploring the project once.
 4. Work as usual. The agent follows the rules in `AGENTS.md`.
 
